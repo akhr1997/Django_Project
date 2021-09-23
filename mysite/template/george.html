@@ -1,0 +1,74 @@
+{% load static %}
+<!-- to load static files https://djangoproject.ashwinkumar18.repl.co/ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>George page</title>
+
+	<link rel="stylesheet" type="text/css" href="/static/styles.css" />
+
+	<!-- GOOGLE FONTS -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Sacramento&family=Ubuntu:wght@500&display=swap"
+	 rel="stylesheet">
+
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+	 crossorigin="anonymous">
+
+	</script>
+
+	<!-- BOOTSTRAP CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	 crossorigin="anonymous" />
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+	 crossorigin="anonymous">
+
+	</script>
+
+</head>
+
+<body>
+	<h1 class="hi">Hello, Welcome to George's Page!</h1>
+	<br/>
+
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<!-- <a class="navbar-brand" href="#">Navbar</a> -->
+			<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button> -->
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link nav-color" href="/">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link nav-color-2" href="/john">John</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link nav-color-2" href="/paul">Paul</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link nav-color-2" href="/george">George</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link nav-color-2" href="/ringo">Ringo</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<section class="george">
+      <h2>
+			<img class="beatle-img" src="{% static "img/George.jpg" %}" alt="george">
+      </h2>
+<p class="hello-p">
+George Harrison[nb 1] MBE (25 February 1943 – 29 November 2001) was an English musician, singer-songwriter, and music and film producer who achieved international fame as the lead guitarist of the Beatles. Sometimes called "the quiet Beatle", Harrison embraced Indian culture and helped broaden the scope of popular music through his incorporation of Indian instrumentation and Hindu-aligned spirituality in the Beatles' work.[2] Although the majority of the band's songs were written by John Lennon and Paul McCartney, most Beatles albums from 1965 onwards contained at least two Harrison compositions. His songs for the group include "Taxman", "Within You Without You", "While My Guitar Gently Weeps", "Here Comes the Sun" and "Something".
+
+Harrison's earliest musical influences included George Formby and Django Reinhardt; Carl Perkins, Chet Atkins and Chuck Berry were subsequent influences. By 1965, he had begun to lead the Beatles into folk rock through his interest in Bob Dylan and the Byrds, and towards Indian classical music through his use of the sitar on "Norwegian Wood (This Bird Has Flown)". Having initiated the band's embracing of Transcendental Meditation in 1967, he subsequently developed an association with the Hare Krishna movement. After the band's break-up in 1970, Harrison released the triple album All Things Must Pass, a critically acclaimed work that produced his most successful hit single, "My Sweet Lord", and introduced his signature sound as a solo artist, the slide guitar. He also organised the 1971 Concert for Bangladesh with Indian musician Ravi Shankar, a precursor to later benefit concerts such as Live Aid. In his role as a music and film producer, Harrison produced acts signed to the Beatles' Apple record label before founding Dark Horse Records in 1974 and co-founding HandMade Films in 1978.
+A
+</p>
+</section>
+  </body>
+</html>

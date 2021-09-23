@@ -1,0 +1,81 @@
+body{
+  background-color: black!important;
+}
+
+.hi {
+ text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500px;
+  color: white;
+  padding-top: 30px;
+  shad
+}
+
+.nav-color{
+  margin-left: 260px;
+  color: white!important;
+}
+
+.navbar{
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  /* padding-left: 100px!important; */
+}
+
+.nav-color-1{
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.nav-color-2{
+  color: white!important;
+  padding-left: 100px!important;
+}
+
+.hello-img{
+  padding-top: 50px;
+  padding-left: 245px;
+  padding-right: 20px;
+  float: left;
+}
+
+.beatle-img{
+  height: 50%;
+  width: 40%;
+  padding-top: 50px;
+  padding-left: 245px;
+  padding-right: 20px;
+  float: left;
+}
+
+.hello-p{
+  padding-top: 50px;
+  padding-left: 245px;
+  margin-right: 245px;
+  text-align: justify;
+}
+
+a:hover{
+  color: black!important;
+}
+
+.hello{
+  background-color: rgb(120, 236, 145)!important;
+}
+
+.john{
+  background-color: rgb(221, 208, 27)
+}
+
+.paul{
+  background-color: rgb(231, 132, 231)!important;
+}
+
+.george{
+  background-color: rgb(236, 97, 108)!important;
+}
+
+.ringo{
+  background-color: rgb(35, 209, 221)!important;
+}

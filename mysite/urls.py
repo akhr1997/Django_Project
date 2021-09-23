@@ -16,9 +16,17 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from mysite.views import Home
-
+from mysite.views import John
+from mysite.views import Paul
+from mysite.views import George
+from mysite.views import Ringo
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', Home.as_view())
+    path('', Home.as_view()),
+    path('john/', John.as_view()),
+    path('paul/', Paul.as_view()),
+    path('george/',George.as_view()),
+    path('ringo/', Ringo.as_view()),
+    path('/',Home.as_view()),
 ]

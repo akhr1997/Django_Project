@@ -1,0 +1,77 @@
+{% load static %}
+<!-- to load static files https://djangoproject.ashwinkumar18.repl.co/ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>John page</title>
+
+	<link rel="stylesheet" type="text/css" href="/static/styles.css" />
+
+	<!-- GOOGLE FONTS -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Sacramento&family=Ubuntu:wght@500&display=swap"
+	 rel="stylesheet">
+
+<!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+	</script>
+
+	<!-- BOOTSTRAP CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	 crossorigin="anonymous" />
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+	 crossorigin="anonymous">
+		
+
+	</script>
+
+</head>
+
+<body>
+	<h1 class="hi">Hello, Welcome to John's Page!</h1>
+	<br/>
+
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<!-- <a class="navbar-brand" href="#">Navbar</a> -->
+			<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button> -->
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link nav-color" href="/">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link nav-color-2" href="/john">John</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link nav-color-2" href="/paul">Paul</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link nav-color-2" href="/george">George</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link nav-color-2" href="/ringo">Ringo</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<section class="john">
+      <h2>
+			<img class="beatle-img" src="{% static "img/john.jpg" %}" alt="john">
+      </h2>
+<p class="hello-p">
+ John Winston Ono Lennon[nb 1] (born John Winston Lennon; 9 October 1940 – 8 December 1980) was an English singer, songwriter, musician and peace activist[2] who achieved worldwide fame as co-lead vocalist, co-songwriter and rhythm guitarist of the Beatles as well as one of the founders of the group. His songwriting partnership with Paul McCartney remains the most successful in history.[3] In 1969, he started the Plastic Ono Band with his second wife, Yoko Ono. After the Beatles disbanded in 1970, Lennon continued his career as a solo artist and as Ono's collaborator.
+
+Born in Liverpool, Lennon became involved in the skiffle craze as a teenager. In 1956, he formed his first band, the Quarrymen, which evolved into the Beatles in 1960. He was initially the group's de facto leader, a role gradually ceded to McCartney. Lennon was characterised for the rebellious nature and acerbic wit in his music, writing, drawings, on film and in interviews. In the mid-1960s, he had two books published: In His Own Write and A Spaniard in the Works, both collections of nonsense writings and line drawings. Starting with 1967's "All You Need Is Love", his songs were adopted as anthems by the anti-war movement and the larger counterculture.
+
+From 1968 to 1972, Lennon produced more than a dozen records with Ono, including a trilogy of avant-garde albums, his first solo LP John Lennon/Plastic Ono Band, and the international top 10 singles "Give Peace a Chance", "Instant Karma!", "Imagine" and "Happy Xmas (War Is Over)". In 1969, he held the two week-long anti-war demonstration Bed-Ins for Peace. After moving to New York City in 1971, his criticism of the Vietnam War resulted in a three-year attempt by the Nixon administration to deport him. In 1975, Lennon disengaged from the music business to raise his infant son Sean and, in 1980, returned with the Ono collaboration Double Fantasy. He was shot and killed in the archway of his Manhattan apartment building by a Beatles fan, Mark David Chapman, three weeks after the album's release.
+
+A
+</p>
+</section>
+  </body>
+</html>

@@ -1,8 +1,72 @@
-{% load static %} <!-- to load static files https://djangoproject.ashwinkumar18.repl.co/ -->
-<html>
-  <head><title>first page</title></head>
-  <body>
-    Hello world!<br/>
-    <img src="{% static "img/hello.png" %}" alt="waving stick figure">
+{% load static %}
+<!-- to load static files https://djangoproject.ashwinkumar18.repl.co/ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Home page</title>
+
+	<link rel="stylesheet" href="static/styles.css" />
+
+	<!-- GOOGLE FONTS -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Sacramento&family=Ubuntu:wght@500&display=swap"
+	 rel="stylesheet">
+
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+	</script>
+
+
+	<!-- BOOTSTRAP CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	 crossorigin="anonymous" />
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+	 crossorigin="anonymous">	
+	</script>
+
+</head>
+
+<body>
+	<h1 class="hi">Hello, Welcome to the Home Page!</h1>
+	<br/>
+
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<!-- <a class="navbar-brand" href="#">Navbar</a> -->
+			<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button> -->
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link nav-color" href="/">Home<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link nav-color-2" href="/john">John</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link nav-color-2" href="/paul">Paul</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link nav-color-2" href="/george">George</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link nav-color-2" href="/ringo">Ringo</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<section class="hello">
+      <h2>
+			<img class="hello-img" src="{% static "img/hello.png" %}" alt="waving stick figure">
+      </h2>
+<p class="hello-p">
+  Django is a Python-based free and open-source web framework that follows the model–template–views (MTV) architectural pattern.[7][8] It is maintained by the Django Software Foundation (DSF), an American independent organization established as a 501(c)(3) non-profit.Django's primary goal is to ease the creation of complex, database-driven websites. The framework emphasizes reusability and "pluggability" of components, less code, low coupling, rapid development, and the principle of don't repeat yourself.[9] Python is used throughout, even for settings, files, and data models. Django also provides an optional administrative create, read, update and delete interface that is generated dynamically through introspection and configured via admin models.Some well-known sites that use Django include Instagram,[10] Mozilla,[11] Disqus,[12] Bitbucket,[13] Nextdoor[14] and Clubhouse.[15]
+Django was created in the fall of 2003, when the web programmers at the Lawrence Journal-World newspaper, Adrian Holovaty and Simon Willison, began using Python to build applications. Jacob Kaplan-Moss was hired early in Django's development shortly before Simon Willison's internship ended.[16] It was released publicly under a BSD license in July 2005. The framework was named after guitarist Django Reinhardt.[17] Adrian Holovaty is a Romani jazz guitar player and a big fan of Django Reinhardt
+</p>
+</section>
   </body>
 </html>

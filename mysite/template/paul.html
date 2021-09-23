@@ -1,0 +1,77 @@
+{% load static %}
+<!-- to load static files https://djangoproject.ashwinkumar18.repl.co/ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Paul page</title>
+
+	<link rel="stylesheet" type="text/css" href="/static/styles.css" />
+
+	<!-- GOOGLE FONTS -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Sacramento&family=Ubuntu:wght@500&display=swap"
+	 rel="stylesheet">
+
+<!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+	</script>
+
+	<!-- BOOTSTRAP CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	 crossorigin="anonymous" />
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+	 crossorigin="anonymous">
+		
+
+	</script>
+
+</head>
+
+<body>
+	<h1 class="hi">Hello, Welcome to Paul's Page!</h1>
+	<br/>
+
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<!-- <a class="navbar-brand" href="#">Navbar</a> -->
+			<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button> -->
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link nav-color" href="/">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link nav-color-2" href="/john">John</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link nav-color-2" href="/paul">Paul</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link nav-color-2" href="/george">George</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link nav-color-2" href="/ringo">Ringo</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<section class="paul">
+      <h2>
+			<img class="beatle-img" src="{% static "img/paul.jpg" %}" alt="paul">
+      </h2>
+<p class="hello-p">
+Sir James Paul McCartney CH MBE (born 18 June 1942) is an English singer, songwriter, musician, and record and film producer who gained worldwide fame as co-lead vocalist, co-songwriter, and bassist for the Beatles. His songwriting partnership with John Lennon remains the most successful in history.[4] After the group disbanded in 1970, he pursued a solo career and formed the band Wings with his first wife, Linda, and Denny Laine.
+
+A self-taught musician, McCartney is proficient on bass, guitar, keyboards, and drums. He is known for his melodic approach to bass-playing (mainly playing with a plectrum), his versatile and wide tenor vocal range (spanning over four octaves), and his eclecticism (exploring styles ranging from pre-rock and roll pop to classical and electronica). McCartney began his career as a member of the Quarrymen in 1957, which evolved into the Beatles in 1960. Starting with the 1967 album Sgt. Pepper's Lonely Hearts Club Band, he gradually became the Beatles' de facto leader, providing the creative impetus for most of their music and film projects. His Beatles songs "And I Love Her" (1964), "Yesterday" (1965), "Eleanor Rigby" (1966) and "Blackbird" (1968) rank among the most covered songs in history.[5][6]
+
+In 1970, McCartney debuted as a solo artist with the album McCartney. Throughout the 1970s, he led Wings, one of the most successful bands of the decade, with more than a dozen international top 10 singles and albums. McCartney resumed his solo career in 1980. Since 1989, he has toured consistently as a solo artist. In 1993, he formed the music duo the Fireman with Youth. Beyond music, he has taken part in projects to promote international charities related to such subjects as animal rights, seal hunting, land mines, vegetarianism, poverty, and music education.
+
+A
+</p>
+</section>
+  </body>
+</html>
